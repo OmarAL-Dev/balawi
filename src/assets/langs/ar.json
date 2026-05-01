@@ -4,5 +4,11 @@
     "app_title": "بلاوي",
     "hello_text": "أهلاً بك",
     "secondary_text": "ابدأ بإنشاء لوحه جديدة",
-    "create_text": "لوحه مهام"
+    "create_text": "لوحه مهام",
+    "h3_cardSettings": "إنشاء لوحه جديده",
+    "name_cardSettings": "الاسم",
+    "description_cardSettings": "وصف مختصر",
+    "create-btn_cardSettings": "إنشاء",
+    "back-btn_cardSettings": "رجوع"
+
 }

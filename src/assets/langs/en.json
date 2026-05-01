@@ -4,5 +4,10 @@
     "app_title": "Balawi",
     "hello_text": "Welcome",
     "secondary_text": "Let's build your first board",
-    "create_text": "New Board"
+    "create_text": "New Board",
+    "h3_cardSettings": "Create a new board",
+    "name_cardSettings": "Name",
+    "description_cardSettings": "Brief description",
+    "create-btn_cardSettings": "Create",
+    "back-btn_cardSettings": "Back"
 }
