@@ -29,7 +29,6 @@
     <h1 id="titleName" data-lang="app_title">بلاوي</h1>
 
     <span id="settings">
-
         <div id="SwitchLang">
             <img id="langIcon" src="assets/icons/langIcon.svg">
             <p id="langText" data-lang="lang_name">ع</p>
@@ -39,7 +38,6 @@
             <input type="checkbox" id="themeCheckbox">
             <span class="slider"></span>
         </label>
-
     </span>
 </div>
 
@@ -53,9 +51,34 @@
             <span data-lang="create_text" id="create-text">لوحة مهام</span>
         </div>
     </div>
-
 </div>
 
+<div class="hide" id="card-settings-overlay">
+    <div id="card-settings-window">
+        <h3 data-lang="h3_cardSettings">إنشاء لوحة جديدة</h3>
+
+        <input data-lang="name_cardSettings"
+               class="input-cardSettings"
+               id="name-cardSettings"
+               type="text"
+               placeholder="الاسم">
+
+        <input data-lang="description_cardSettings"
+               class="input-cardSettings"
+               id="description-cardSettings"
+               type="text"
+               placeholder="وصف مختصر">
+
+        <span id="span-button-cardSettings">
+            <button data-lang="create-btn_cardSettings"
+                    class="button-cardSettings"
+                    id="create-btn-cardSettings">إنشاء</button>
+            <button data-lang="back-btn_cardSettings"
+                    class="button-cardSettings"
+                    id="back-btn-cardSettings">رجوع</button>
+        </span>
+    </div>
+</div>
 
 <script src="script.js"></script>
 </body>
