@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title data-lang="title_name">مهامك</title>
+    <script>
+        if (localStorage.getItem('dark-theme') === 'true') {
+            document.documentElement.setAttribute('data-theme', 'dark')
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="top-par" dir="rtl" data-tauri-drag-region>
+    <span id="WindowButtons">
+        <span class="win-btn" id="close-btn">
+            <img id="close-img" src="assets/icons/close.svg">
+        </span>
+        <span class="win-btn" id="zoom-btn">
+            <img id="zoom-img" src="assets/icons/zoom.svg">
+        </span>
+        <span class="win-btn" id="minimize-btn">
+            <img id="minimize-img" src="assets/icons/minimize.svg">
+        </span>
+    </span>
+
+    <h1 id="titleName" data-lang="app_title">مهامك</h1>
+
+    <span id="settings">
+
+        <div id="SwitchLang">
+            <img id="langIcon" src="assets/icons/langIcon.svg">
+            <p id="langText" data-lang="lang_name">ع</p>
+        </div>
+
+        <label id="toggleBtn">
+            <input type="checkbox" id="themeCheckbox">
+            <span class="slider"></span>
+        </label>
+
+    </span>
+</div>
+
+<div id="container">
+    <h2 data-lang="hello_text" id="hello-text">أهلاً بك</h2>
+    <p data-lang="secondary_text" id="secondary-text">ابدأ بإنشاء لوحة جديدة</p>
+
+    <div id="create-btn-wrapper">
+        <div id="create-btn">
+            <img id="plus-img" src="assets/icons/plus.svg">
+            <span data-lang="create_text" id="create-text">لوحة مهام</span>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
